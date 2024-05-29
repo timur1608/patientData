@@ -1,0 +1,16 @@
+{
+  "name": "patient-records",
+  "version": "1.0.0",
+  "description": "Blockchain-based patient records storage with IPFS",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "@truffle/contract": "^4.6.31",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "ipfs-http-client": "^56.0.3",
+    "truffle": "^5.4.29"
+  }
+}
